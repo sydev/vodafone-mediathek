@@ -2,14 +2,40 @@
   "name": "vodafone-mediathek",
   "version": "0.1.0",
   "private": true,
+  "typings": "./@types",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
+    "exifr": "^6.0.0",
+    "mobx": "^6.1.1",
+    "mobx-react": "^7.1.0",
+    "mysql": "^2.18.1",
     "next": "10.0.5",
+    "next-auth": "^3.1.0",
+    "next-images": "^1.7.0",
+    "pretty-bytes": "^5.5.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-modal": "^3.12.1",
+    "react-select": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-decorators": "^7.12.12",
+    "@types/classnames": "^2.2.11",
+    "@types/mysql": "^2.15.17",
+    "@types/next-auth": "^3.1.23",
+    "@types/node": "^14.14.22",
+    "@types/pretty-bytes": "^5.2.0",
+    "@types/react": "^17.0.0",
+    "@types/react-modal": "^3.10.6",
+    "@types/react-select": "^4.0.5",
+    "@types/react-transition-group": "^4.4.0",
+    "sass": "^1.32.5",
+    "typescript": "^4.1.3"
   }
 }
